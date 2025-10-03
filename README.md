@@ -40,7 +40,7 @@ docker build -t ${scaffold.name} .
 - PostgreSQL
 - FastAPI
 
-## ️ Architecture
+## Architecture
 
 ```
 prompt-tuning-scaffold/
