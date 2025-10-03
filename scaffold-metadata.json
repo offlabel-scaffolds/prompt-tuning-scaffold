@@ -1,0 +1,34 @@
+{
+  "name": "prompt-tuning-scaffold",
+  "description": "Prompt versioning, A/B testing, and adapter layer management",
+  "tech": [
+    "LangChain",
+    "Python",
+    "PostgreSQL",
+    "FastAPI"
+  ],
+  "categories": [
+    "ai-ml",
+    "backend"
+  ],
+  "usecases": [
+    "ai-ml",
+    "saas"
+  ],
+  "maturity": "beta",
+  "complexity": "intermediate",
+  "features": [
+    "prompt-versioning",
+    "ab-testing",
+    "adapters",
+    "unit-tests",
+    "docker"
+  ],
+  "hasDemo": true,
+  "hasCLI": false,
+  "securityFeatures": [
+    "access-control",
+    "version-control"
+  ],
+  "lastUpdated": "2025-01-03"
+}
