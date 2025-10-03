@@ -2,15 +2,15 @@
 
 Prompt versioning, A/B testing, and adapter layer management
 
-## 🎯 Features
+## The Good Stuff
 
-- ✅ Prompt Versioning
-- ✅ Ab Testing
-- ✅ Adapters
-- ✅ Unit Tests
-- ✅ Docker
+- Prompt Versioning
+- Ab Testing
+- Adapters
+- Unit Tests
+- Docker
 
-## 🚀 Quick Start
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -33,37 +33,37 @@ pytest
 docker build -t ${scaffold.name} .
 ```
 
-## 📦 Tech Stack
+## Technologies
 
 - LangChain
 - Python
 - PostgreSQL
 - FastAPI
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 prompt-tuning-scaffold/
-├── src/                    # Source code
-│   ├── core/              # Core functionality
-│   ├── utils/             # Utilities
-│   └── config/            # Configuration
-├── tests/                  # Test files
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                   # Documentation
-├── .github/workflows/      # CI/CD pipelines
+├── src/ # Source code
+│ ├── core/ # Core functionality
+│ ├── utils/ # Utilities
+│ └── config/ # Configuration
+├── tests/ # Test files
+│ ├── unit/ # Unit tests
+│ └── integration/ # Integration tests
+├── docs/ # Documentation
+├── .github/workflows/ # CI/CD pipelines
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Access Control
-- ✅ Version Control
+- Access Control
+- Version Control
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -76,7 +76,7 @@ pytest --cov
 pytest tests/unit
 ```
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - Structured logging
 - Metrics collection
@@ -84,7 +84,7 @@ pytest tests/unit
 - Performance monitoring
 - Live demo dashboard
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker
 ```bash
@@ -102,7 +102,7 @@ kubectl apply -f k8s/
 docker-compose up -d
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [Configuration](./docs/configuration.md)
@@ -110,15 +110,15 @@ docker-compose up -d
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 MIT - Built by Augustus Rivers at Offlabel Design
 
-## 💬 Support
+## Support
 
 - **Email:** hello@offlabel.design
 - **GitHub:** https://github.com/offlabel-scaffolds/prompt-tuning-scaffold
@@ -128,5 +128,5 @@ MIT - Built by Augustus Rivers at Offlabel Design
 
 **Maturity:** beta | **Complexity:** intermediate | **Last Updated:** 2025-01-03
 
-**🎮 [View Live Demo →](https://demo.offlabel.design/prompt-tuning-scaffold)**
+** [View Live Demo →](https://demo.offlabel.design/prompt-tuning-scaffold)**
 
